@@ -1,0 +1,103 @@
+/* 🌟 General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #504c4e, #504c4e);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 🎨 Login/Register Container */
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ✨ Heading */
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* 📝 Input Fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #201f1f;
+  box-shadow: 0px 0px 8px rgba(255, 117, 140, 0.5);
+  outline: none;
+}
+
+/* 🚀 Login/Register Button */
+button {
+  width: 100%;
+  background: linear-gradient(to right, #0f0e0e, #0f0e0e);
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #e6dfe2, #e0d7d9);
+  color: rgb(8, 8, 8);
+  transform: scale(1.05);
+}
+
+/* 🔗 Link Styling */
+a {
+  color: #211d1e;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #5f5759;
+  text-decoration: underline;
+}
+
+/* 🎭 Animation */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* 📱 Responsive */
+@media (max-width: 450px) {
+  .container {
+      width: 90%;
+  }
+}
